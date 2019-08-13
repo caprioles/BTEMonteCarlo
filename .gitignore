@@ -1,4 +1,10 @@
 _Data/
+Data/
 *.o
 *.mod
+*.exe
+*.avi
+*.mat
+*.asv
+.DS_Store
 MonteCarlo

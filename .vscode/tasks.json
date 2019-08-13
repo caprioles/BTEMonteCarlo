@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": []
+        },
+        {
+            "label": "Rebuild",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": [],
+            "args": [
+                "--always-make"
+            ]
+        },
+        {
+            "label": "Clean",
+            "group": "build",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean-win"
+            ],
+            "problemMatcher": []
+        }
+    ]
+  }
